@@ -1,0 +1,87 @@
+/* App.css */
+
+body {
+  background: linear-gradient(to right, #373b44, #4286f4);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  background-color: #1e1e2f;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 350px;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+#break-label,
+#session-label {
+  margin: 1rem 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#break-label div,
+#session-label div {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
+  background-color: #5e72e4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #7387f7;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+#break-length,
+#session-length {
+  font-size: 1.5rem;
+  width: 2rem;
+  text-align: center;
+}
+
+#timer-label {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#time-left {
+  font-size: 2.5rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+#start_stop,
+#reset {
+  margin: 0.5rem;
+  width: 100px;
+}
